@@ -1,0 +1,78 @@
+.timestamp {
+  flex: 1;
+  padding: 2rem;
+  padding-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.timestamp form {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 0.25rem;
+}
+.timestamp form input {
+  flex: 1;
+  background-color: var(--color-background-hover);
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.5rem;
+  outline: 2px solid var(--color-border);
+  border: none;
+}
+.timestamp label,
+.timestamp input,
+.timestamp button {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.timestamp form button {
+  padding: 0.25rem 1rem;
+  color: var(--color-background);
+  background-color: var(--color-main);
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.timestamp form button:hover {
+  background-color: var(--color-main-hover);
+}
+.timestamp section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.timestamp section * {
+  font-weight: 500;
+}
+.timestamp .output {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-radius: 3rem;
+  background-color: var(--color-main);
+}
+.timestamp .output:hover {
+  background-color: var(--color-main-hover);
+  cursor: pointer;
+}
+.timestamp .output * {
+  color: white;
+}
+.timestamp .output p:first-child {
+  padding-right: 0.75rem;
+  border-right: 2px solid white;
+  font-size: 0.75rem;
+}
+.timestamp .output p {
+  text-wrap: nowrap;
+  overflow-x: auto;
+}
+.timestamp .output .result {
+  flex: 1;
+  padding-left: 0.75rem;
+}
+.timestamp .output img {
+  padding-left: 0.75rem;
+  border-left: 2px solid white;
+}
